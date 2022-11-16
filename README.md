@@ -6,25 +6,25 @@ Prerequisites:
 
 Installation:
 
-download .zip file of the vlc module
+1.download .zip file of the vlc module
 
-open .zip file and you should see a simple folder named vlcnew
+2.open .zip file and you should see a simple folder named vlcnew
 
-enter that folder and you should see folders that mimic the ones in the repository
+3.enter that folder and you should see folders that mimic the ones in the repository
 
-Now, go into the terminal and build a skeleton module by typing "./create-module.py vlcnew" (please follow ns3 guidline on how to build new module)
+4.Now, go into the terminal and build a skeleton module by typing "./create-module.py vlcnew" (please follow ns3 guidline on how to build new module)
 
-Find your NS3 file system and in the "src" folder there should be a "vlcnew" folder, open that and you should see similar folder names to that of the repository.
+5.Find your NS3 file system and in the "src" folder there should be a "vlcnew" folder, open that and you should see similar folder names to that of the repository.
 
-you should delete those files as they will be replaced by the files downloaded from the repository
+6.you should delete those files as they will be replaced by the files downloaded from the repository
 
-Look back to where you unziped the downloaded repository files and copy and paste those folders and files into this newly made folder (do not copy the scratch folder)
+7.Look back to where you unziped the downloaded repository files and copy and paste those folders and files into this newly made folder
 
-Now, start up the terminal and go to the ns-3-dev directory
+8.Now, start up the terminal and go to the ns-3-dev directory
 
-While in this directory build all the NS3 modules (if unsure use the installation guide to help, I use ubuntu and my command is ./waf build)
+9.While in this directory build all the NS3 modules (if unsure use the installation guide to help, I use ubuntu and my command is ./waf build)
 
-It is optional to enable tests and examples but it should build regardless ( build will take sometimes! have your coffee ready!)
+10.It is optional to enable tests and examples but it should build regardless ( build will take sometimes! have your coffee ready!)
 
 now you can use the vlcnew-module in ns3 simulations
 
