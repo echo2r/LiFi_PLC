@@ -22,9 +22,9 @@ Installation:
 
 8.Now, start up the terminal and go to the ns-3-dev directory
 
-9.While in this directory build all the NS3 modules (if unsure use the installation guide to help, I use ubuntu and my command is ./waf build)
+9.While in this directory build all the NS3 modules
 
-10.It is optional to enable tests and examples but it should build regardless ( build will take sometimes! have your coffee ready!)
+10.It is optional to enable tests and examples but it should build regardless 
 
 now you can use the vlcnew-module in ns3 simulations
 
@@ -36,4 +36,4 @@ create a file a .cc file and follow the format that the example scripts use (in 
 
 move the file into the /scratch directory (must run any test from the scratch directory)
 
-to compile and run use the command "./waf --run scratch/your_file_name_without_.cc
+to compile and run use the command "./ns3 --run scratch/your_file_name_without_.cc
